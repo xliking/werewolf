@@ -1,4 +1,4 @@
-package xlike.top.audio.utils;
+package xlike.top.werewolf.utils;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,7 +32,7 @@ public class JrebelMain {
 
         JButton button = new JButton();
         button.setText("Get License");
-        button.addActionListener(new JrebelMain.ButtonClick());
+        button.addActionListener(new ButtonClick());
         panel.add(button);
 
 

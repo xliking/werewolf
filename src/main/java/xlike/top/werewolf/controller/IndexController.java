@@ -1,4 +1,4 @@
-package xlike.top.token.controller;
+package xlike.top.werewolf.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -13,13 +13,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String toLogin() {
-        return "login";
-    }
-
-
-    @GetMapping("/login")
-    public String login() {
-        return "login";
+        return "index";
     }
 
     @GetMapping("/index")

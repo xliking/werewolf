@@ -17,7 +17,7 @@
  *
  */
 
-package xlike.top.token.config;
+package xlike.top.werewolf.config;
 
 /**
  * @author Administrator

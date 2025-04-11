@@ -1,4 +1,4 @@
-package xlike.top.token.config;
+package xlike.top.werewolf.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

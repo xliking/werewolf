@@ -8,15 +8,7 @@ import java.util.List;
  * @author xlike
  */
 @Data
-public class OpenAiModelResponseDto {
+public class ModelResponseDto {
     private String object;
     private List<ModelDto> data;
-}
-
-@Data
-class ModelDto {
-    private String id;
-    private String object;
-    private Long created;
-    private String ownedBy;
 }
